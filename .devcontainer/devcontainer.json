@@ -1,0 +1,40 @@
+{
+    "name": "Go Development with Zellij and SSH",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "settings": {
+        "terminal.integrated.defaultProfile.linux": "zellij",
+        "go.gopath": "/go",
+        "go.goroot": "/usr/local/go"
+    },
+    "extensions": [
+        "golang.Go",
+        "mutantdino.resourcemonitor"
+    ],
+    "forwardPorts": [22],
+    "portsAttributes": {
+        "22": {
+            "label": "SSH",
+            "onAutoForward": "silent"
+        }
+    },
+    "remoteUser": "vscode",
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {}
+    },
+    "postCreateCommand": "sudo service ssh start",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.profiles.linux": {
+                    "zellij": {
+                        "path": "zellij",
+                        "args": ["attach", "-c"]
+                    }
+                }
+            }
+        }
+    }
+}
+
