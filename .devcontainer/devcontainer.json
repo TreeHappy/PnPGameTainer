@@ -9,32 +9,16 @@
         "go.goroot": "/usr/local/go"
     },
     "extensions": [
-        "golang.Go",
-        "mutantdino.resourcemonitor"
     ],
-    "forwardPorts": [22],
-    "portsAttributes": {
-        "22": {
-            "label": "SSH",
-            "onAutoForward": "silent"
-        }
-    },
-    "remoteUser": "vscode",
+    // "remoteUser": "vscode",
     "features": {
-        "ghcr.io/devcontainers/features/git:1": {}
+         "ghcr.io/devcontainer-community/devcontainer-features/zellij.dev:1": {},
+        "ghcr.io/devcontainers/features/go:1": {},
+        "ghcr.io/devcontainers/features/git:1": {},
+        "ghcr.io/duduribeiro/devcontainer-features/neovim:1": { "version": "nightly" }
     },
-    "postCreateCommand": "sudo service ssh start",
+    "postCreateCommand": "",
     "customizations": {
-        "vscode": {
-            "settings": {
-                "terminal.integrated.profiles.linux": {
-                    "zellij": {
-                        "path": "zellij",
-                        "args": ["attach", "-c"]
-                    }
-                }
-            }
-        }
     }
 }
 
