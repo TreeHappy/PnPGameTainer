@@ -58,7 +58,7 @@ You start with the following equipment, in addition to the equipment granted by 
 | 18th  | +6                | Channel Divinity (3/rest)                                               | 5              | 4   | 3   | 3   | 3   | 3   | 1   | 1   | 1   | 1   |
 | 19th  | +6                | Ability Score Improvement                                               | 5              | 4   | 3   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |
 | 20th  | +6                | Divine Intervention improvement                                         | 5              | 4   | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
-|       |                   |                                                                         |                |     |     |     |     |     |     |     |     |     |
+
 
 ### Spellcasting
 
@@ -137,7 +137,7 @@ Starting at 5th level, when an undead fails its saving throw against your Turn U
 | 11th         | 2 or lower                |
 | 14th         | 3 or lower                |
 | 17th         | 4 or lower                |
-|              |                           |
+
 
 ### Divine Intervention
 
@@ -164,7 +164,7 @@ The Life domain focuses on the vibrant positive energy-one of the fundamental fo
 | 5th          | beacon of hope, revivify             |
 | 7th          | death ward, guardian of faith        |
 | 9th          | mass cure wounds, raise dead         |
-|              |                                      |
+
 
 #### Bonus Proficiency
 
