@@ -56,7 +56,7 @@ You start with the following equipment, in addition to the equipment granted by 
 | 18th  | +6                | 1d10         | 18        | +30 ft.            | Empty Body                                       |
 | 19th  | +6                | 1d10         | 19        | +30 ft.            | Ability Score Improvement                        |
 | 20th  | +6                | 1d10         | 20        | +30 ft.            | Perfect Self                                     |
-|       |                   |              |           |                    |                                                  |
+
 
 ### Unarmored Defense
 
